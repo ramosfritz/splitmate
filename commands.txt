@@ -27,4 +27,11 @@ git branch main
 #Merge to a branch, first go to that branch where you want to merge 
 git checkout main 
 git merge feature-another-button
+git push origin main 
+#now delete the feature button 
+git branch -d feature-another-button 
+#then push
+git push origin main
 
+#delete feature branch on remote repo 
+git push origin --delete feature-another-button 
