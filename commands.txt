@@ -5,3 +5,19 @@ git commit -m "message"
 git status
 
 git log --oneline 
+
+
+
+ a new branch, create a new feature, when done merge to main branch 
+
+#create a new branch 
+git branch feature-branch
+
+#check for branches 
+git branch 
+
+#switch to another branch 
+git checkout feature-button  
+
+
+
