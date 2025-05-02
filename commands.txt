@@ -34,4 +34,4 @@ git branch -d feature-another-button
 git push origin main
 
 #delete feature branch on remote repo 
-git push origin --delete feature-another-button  
+git push origin --delete feature-another-button 
