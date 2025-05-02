@@ -35,3 +35,8 @@ git push origin main
 
 #delete feature branch on remote repo 
 git push origin --delete feature-another-button 
+git merge feature-search 
+
+#delete the feature-search locally and remotely 
+git branch -d feature-search 
+git push origin --delete feature-search 
