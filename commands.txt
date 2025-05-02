@@ -22,3 +22,9 @@ git checkout feature-button
 
 #check main branch
 git branch main
+
+
+#Merge to a branch, first go to that branch where you want to merge 
+git checkout main 
+git merge feature-another-button
+
