@@ -35,3 +35,8 @@ git push origin main
 
 #delete feature branch on remote repo 
 git push origin --delete feature-another-button 
+
+#git pull 
+go to the feature branch 
+git checkout feature-search 
+git pull origin main
